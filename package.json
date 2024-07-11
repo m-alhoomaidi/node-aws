@@ -1,0 +1,28 @@
+{
+  "name": "node-aws-lamda",
+  "version": "1.0.0",
+  "description": "app that work with express api that emit event to call nodeJS lamda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-alhoomaidi/node-aws.git"
+  },
+  "keywords": [
+    "node-aws-lamda"
+  ],
+  "author": "Mohammed AlHomaidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-alhoomaidi/node-aws/issues"
+  },
+  "homepage": "https://github.com/m-alhoomaidi/node-aws#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1658.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
